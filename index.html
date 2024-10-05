@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web cam tracking</title>
+        <meta charset="utf-8">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="CSS/css.css">
+
+        <!-- JS -->
+        <script type="text/javascript" src="JS/main.js"></script>
+
+    </head>
+    <body>
+
+        <section id="user-board" class="board">
+
+            <p class="p-dice text-right">
+                <input type="button" value="keep">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+            </p>
+            <p class="p-dice text-right">
+                <input type="button" value="keep">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+            </p>
+            <p class="p-dice text-right">
+                <input type="button" value="keep">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+            </p>
+            <p class="p-dice text-right">
+                <input type="button" value="keep">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+            </p>
+            <p class="p-dice text-right">
+                <input type="button" value="keep">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+            </p>
+
+            <p class="p-action text-center">
+                <input type="button" value="roll the dice (5)">
+            </p>
+
+            <p class="p-score">
+                score : <span class="score">0</span>
+            </p>
+
+            <p class="p-retry text-center">
+                <input type="button" value="retry" onclick="start()">
+            </p>
+
+        </section>
+
+        <section id="bot-board" class="board">
+
+            <p class="p-dice">
+                <input type="button" value="keep" class="hidde">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+                <span class="span-bot-keep"></span>
+            </p>
+            <p class="p-dice">
+                <input type="button" value="keep" class="hidde">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+                <span class="span-bot-keep"></span>
+            </p>
+            <p class="p-dice">
+                <input type="button" value="keep" class="hidde">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+                <span class="span-bot-keep"></span>
+            </p>
+            <p class="p-dice">
+                <input type="button" value="keep" class="hidde">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+                <span class="span-bot-keep"></span>
+            </p>
+            <p class="p-dice">
+                <input type="button" value="keep" class="hidde">
+                <img src="IMG/0.png" width="50px" heihgt="50px">
+                <span class="span-bot-keep"></span>
+            </p>
+
+            <p class="p-action">
+                <input type="button" value="roll the dice (5)" class="hidden">
+            </p>
+
+            <p class="p-score">
+                score : <span class="score">0</span>
+            </p>
+
+            <p class="p-retry hidden">
+                <input type="button" value="retry">
+            </p>
+
+        </section>
+
+    </body>
+</html>

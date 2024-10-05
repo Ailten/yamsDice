@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.hidde{
+    display: none;
+}
+.hidden{
+    visibility: hidden;
+}
+
+.board{
+    width: 49%;
+    display: inline-block;
+}
+#bot-board{
+    background-color: rgba(98, 70, 70, 0.23);
+}
+
+.p-dice{
+    margin: 0;
+    height: 50px;
+}
+.p-dice:nth-child(n+2){
+    margin-top: 6px;
+}
+.p-dice > input{
+    position: absolute;
+    left: calc(50% - 110px);
+    margin-top: 12px;
+}
+.span-bot-keep{
+    position: absolute;
+    left: calc(50% + 60px);
+    margin-top: 12px;
+    color: #2b3f6f;
+}
+
+.p-action{
+    margin-top: 15px;
+}
+
+.p-score{
+    text-align: center;
+}
